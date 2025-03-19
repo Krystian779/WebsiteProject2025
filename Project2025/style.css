@@ -1,0 +1,193 @@
+/* General Styles */
+h1{
+    text-align: center;
+}
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #1e1e1e; /* Dark Grey */
+    color: #e0e0e0; /* Light Text */
+    margin: 0;
+    padding: 0;
+}
+
+/* Header */
+header {
+    background-color: #2a2a2a; /* Slightly lighter dark grey */
+    color: aqua; /* Light Blue */
+    text-align: center;
+    padding: 20px;
+    font-size: 24px;
+}
+
+/* Navigation */
+.navbar ul{
+    list-style-type: none;
+    background-color: #2a2a2a;
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+}
+
+.navbar a{
+    color:aqua;
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    text-align: center;
+}
+
+.navbar a:hover{
+    background-color:#333;
+}
+
+.navbar li{
+    float: left;
+}
+nav {
+    background-color: #333;
+    padding: 10px;
+    text-align: center;
+}
+
+nav a {
+    color: aqua;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 18px;
+}
+
+nav a:hover {
+    color: #ffffff;
+}
+
+/* Main Content */
+main {
+    padding: 20px;
+    max-width: 900px;
+    margin: auto;
+}
+
+/* Sections & Articles */
+section {
+    background-color: #2a2a2a;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+h1, h2, h3 {
+    color: aqua;
+}
+
+h2{margin: 30px;
+padding: 20px;
+}
+
+a{
+    margin-left: 30px;
+    padding:20px;
+    text-decoration: none;
+    color: rgb(0, 119, 255) ;
+}
+
+.article1text{
+    margin:30px;
+    padding:20px
+}
+/* Images */
+.article{
+    float:left;
+    margin-left: auto;
+    margin-right: 10px;
+    max-width: 100%;
+    height: 300px;
+    border-radius: 5px;
+}
+img {
+    max-width: 100%;
+    height: 100px;
+    border-radius: 5px;
+}
+
+
+/* Styles for future */
+
+/* Floated Image */
+.floated-img {
+    float: left;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+/* Lists */
+ul {
+    list-style-type: square;
+}
+
+ol {
+    list-style-type: decimal;
+}
+
+/* Table */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+table, th, td {
+    border: 1px solid aqua;
+    padding: 10px;
+    text-align: left;
+}
+
+/* Forms */
+form {
+    background-color: #2a2a2a;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid aqua;
+    background-color: #1e1e1e;
+    color: #e0e0e0;
+    border-radius: 5px;
+}
+
+button {
+    background-color: aqua;
+    color: #1e1e1e;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #4fa3d1;
+}
+
+/* Footer */
+footer {
+    background-color: #2a2a2a;
+    text-align: center;
+    padding: 10px;
+    font-size: 14px;
+    color: #e0e0e0;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    main {
+        width: 90%;
+    }
+
+    nav a {
+        display: block;
+        margin: 5px 0;
+    }
+}
